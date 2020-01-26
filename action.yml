@@ -5,11 +5,11 @@ inputs:
   user:
     description: 'Login'
     required: true
-    default: ${{ secrets.USER }}
+    default: 'user'
   password:
     description: 'user password'
     required: true
-    default: ${{ secrets.PASSWORD }}
+    default: 'password'
 
 runs:
   using: 'docker'
