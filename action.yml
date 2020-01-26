@@ -13,4 +13,5 @@ inputs:
 
 runs:
   using: 'docker'
+  options: --privileged
   image: 'Dockerfile'
