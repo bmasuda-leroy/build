@@ -1,0 +1,16 @@
+name: Build and push images
+description: 'My first push'
+
+inputs:
+  user:
+    description: 'Login'
+    required: true
+    default: ${{ secrets.USER }}
+  password:
+    description: 'user password'
+    required: true
+    default: ${{ secrets.PASSWORD }}
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
