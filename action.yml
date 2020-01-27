@@ -13,5 +13,4 @@ inputs:
 
 runs:
   using: 'docker'
-  options: --privileged
-  image: 'Dockerfile'
+  image: 'lmbrdocker/lmbr-builder:v2.0.0'
